@@ -1,5 +1,19 @@
 # Regex Notes
 
+## Table of Contents
+1. [What is Regex?](#what-is-regex)
+2. [Basic Syntax](#basic-syntax)
+3. [Special Sequences](#special-sequences)
+4. [Quantifiers](#quantifiers)
+5. [Groups and Ranges](#groups-and-ranges)
+6. [Anchors](#anchors)
+7. [Example Patterns](#example-patterns)
+8. [Using Regex in Python](#using-regex-in-python)
+9. [Common Pitfalls and Tips](#common-pitfalls-and-tips)
+10. [Advanced Topics](#advanced-topics)
+    - [Lookaheads and Lookbehinds](#lookaheads-and-lookbehinds)
+11. [Use Cases of Regular Expressions](#use-cases-of-regular-expressions)
+
 ## What is Regex?
 
 Regular expressions (regex) are sequences of characters that define search patterns. They are used for string matching and manipulation.
@@ -77,23 +91,59 @@ Python's `re` module provides support for working with regular expressions. Here
 - **Positive Lookbehind (`(?<=...)`):** Asserts that what precedes the current position in the string matches the given pattern.
 - **Negative Lookbehind (`(?<!...)`):** Asserts that what precedes the current position in the string does not match the given pattern.
 
+### Unicode Matching
+
+Unicode Character Classes: Match characters from different languages and scripts.
+
+### Named Groups
+
+Named Capturing Groups: Assign names to groups for easier reference.
+
+### Conditional Expressions
+
+Conditional Expressions: Match different patterns based on a condition.
+
+### Verbose Mode
+
+Verbose Mode (re.VERBOSE): Write more readable regex by allowing comments and whitespace.
+
+### Recursive Patterns
+
+Recursive Patterns: Match nested structures.
+
+### Atomic Groups
+
+Atomic Groups ((?>...)): Prevent backtracking within a group.
+
+### Flags and Modifiers
+
+•	Using Flags: Modify the behavior of regex patterns.
+
 ## Use Cases of Regular Expressions
 
 Regular expressions are extremely versatile and can be used in a variety of scenarios. Here are some common use cases:
 
 - **Data Validation**:
-	•	Email Validation: Ensure that input follows the pattern of a valid email address. 
-    •	Phone Number Validation: Check if a phone number follows a specific format.
+
+	•	[Email Validation](usecases/email_validation.py): Ensure that input follows the pattern of a valid email address. 
+
+	•	[Phone Number Validation](usecases/phone_number_validation.py): Check if a phone number follows a specific format.
 
 - **Text Processing**:
-    •	Extracting Information: Extract specific information from a larger body of text.
-    •	Replacing Text: Perform substitutions in a text based on a pattern.
+
+    •	[Extracting Information](usecases/extracting_information.py): Extract specific information from a larger body of text.
+    
+	•	[Replacing Text](usecases/replacing_text.py): Perform substitutions in a text based on a pattern.
 
 - **Log File Analysis**:
-	•	Parsing Logs: Extract useful information from log files.
+
+	•	[Parsing Logs](usecases/parsing_logs.py): Extract useful information from log files.
 
 - **Web Scraping**:
-	•	Extracting Data from HTML: Use regex to scrape data from web pages (though libraries like BeautifulSoup are often better for this task).
+
+	•	[Extracting Data from HTML](usecases/extracting_data_from_html.py): Use regex to scrape data from web pages (though libraries like BeautifulSoup are often better for this task).
 
 - **Configuration File Parsing**:
-	•	Reading Configurations: Extract key-value pairs from configuration files.
+
+	•	[Reading Configurations](usecases/reading_configurations.py): Extract key-value pairs from configuration files
+.
