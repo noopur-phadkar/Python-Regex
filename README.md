@@ -7,12 +7,12 @@ This repository contains notes and solved examples for using regex (regular expr
 1. [notes.md](notes.md):
 	•	Contains detailed notes on regex concepts, syntax, and usage in Python.
 	•	Example content:
-2. [examples/](examples):
+2. [examples](examples):
 	•	Directory containing Python scripts with solved examples.
-3. [usecases/](usecases):
-    •	Directory containing examples for usecases mentioned in [notes.md](notes.md#use-cases-of-regular-expressions)
-4. [advanced_topics/](advanced_topics):
-    •	Directory containing examples for advanced topics mentioned in [notes.md](notes.md#advanced-topics)
+3. [usecases](usecases):
+	•	Directory containing examples for usecases mentioned in [notes.md](notes.md#use-cases-of-regular-expressions)
+4. [advanced_topics](advanced_topics):
+	•	Directory containing examples for advanced topics mentioned in [notes.md](notes.md#advanced-topics)
 
 ## How to Use
 
