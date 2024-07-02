@@ -93,31 +93,31 @@ Python's `re` module provides support for working with regular expressions. Here
 
 ### Unicode Matching
 
-Unicode Character Classes: Match characters from different languages and scripts.
+[Unicode Character Classes](advanced_topics/unicode_matching.py): Match characters from different languages and scripts.
 
 ### Named Groups
 
-Named Capturing Groups: Assign names to groups for easier reference.
+[Named Capturing Groups](advanced_topics/named_groups.py): Assign names to groups for easier reference.
 
 ### Conditional Expressions
 
-Conditional Expressions: Match different patterns based on a condition.
+[Conditional Expressions](advanced_topics/conditional_expressions.py): Match different patterns based on a condition.
 
 ### Verbose Mode
 
-Verbose Mode (re.VERBOSE): Write more readable regex by allowing comments and whitespace.
+[Verbose Mode](advanced_topics/verbose.py) (re.VERBOSE): Write more readable regex by allowing comments and whitespace.
 
 ### Recursive Patterns
 
-Recursive Patterns: Match nested structures.
+[Recursive Patterns](advanced_topics/recursive_patterns.py): Match nested structures.
 
 ### Atomic Groups
 
-Atomic Groups ((?>...)): Prevent backtracking within a group.
+[Atomic Groups](advanced_topics/atomic_groups.py) ((?>...)): Prevent backtracking within a group.
 
 ### Flags and Modifiers
 
-•	Using Flags: Modify the behavior of regex patterns.
+[Using Flags](advanced_topics/flags.py): Modify the behavior of regex patterns.
 
 ## Use Cases of Regular Expressions
 
