@@ -31,6 +31,10 @@ This repository contains notes and solved examples for using regex (regular expr
 	•	Example content:
 2. [examples/](examples):
 	•	Directory containing Python scripts with solved examples.
+3. [usecases](usecases):
+    •	Directory containing examples for usecases mentioned in [notes.md](notes.md#use-cases-of-regular-expressions)
+4. [advanced_topics](advanced_topics):
+    •	Directory containing examples for advanced topics mentioned in [notes.md](notes.md#advanced-topics)
 3. [requirements.txt](requirements.txt):
 	•	Lists any dependencies required to run your examples (if any).
 
