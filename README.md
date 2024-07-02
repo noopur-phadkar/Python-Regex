@@ -38,10 +38,6 @@ This repository contains notes and solved examples for using regex (regular expr
 3. [requirements.txt](requirements.txt):
 	•	Lists any dependencies required to run your examples (if any).
 
-## Prerequisites
-
-	•	Python 3.x
-	•	Any additional libraries listed in requirements.txt
 ## License
 
 This project is licensed under the MIT [License](LISCENSE).
